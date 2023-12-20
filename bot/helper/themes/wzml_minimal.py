@@ -108,7 +108,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''✿︎♲︎︎︎✿︎ <b><i>Rᴇsтᴀʀтᴇᴅ Succᴇssғuʟʟʏ♡︎♡︎♡︎</i></b>
+    RESTART_SUCCESS = ''' <b><i>Rᴇsтᴀʀтᴇᴅ Succᴇssғuʟʟʏ♡︎♡︎♡︎</i></b>
 ❀ <b>Date:</b> {date}
 ❀ <b>Time:</b> {time}
 ❀ <b>TimeZone:</b> {timz}
