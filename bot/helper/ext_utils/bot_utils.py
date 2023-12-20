@@ -44,8 +44,8 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "Upload"
-    STATUS_DOWNLOADING = "Download"
+    STATUS_UPLOADING   = "⇑ Upload"
+    STATUS_DOWNLOADING = "⇓ Download"
     STATUS_CLONING     = "Clone"
     STATUS_QUEUEDL     = "QueueDL"
     STATUS_QUEUEUP     = "QueueUp"
@@ -143,9 +143,9 @@ def get_progress_bar_string(pct):
     cPart = int(p % 8 - 1)
     p_str = '▰' * cFull
     if cPart >= 0:
-        p_str += ['▱', '▱', '▱', '▱', '▱', '▱', '▰'][cPart]
+        p_str += ['▱', '🦋', '▱', '🦋', '▱', '🦋', '▰'][cPart]
     p_str += '▱' * (12 - cFull)
-    return f"⫷{p_str}⫸"
+    return f"∊{p_str}∋"
 
 
 def get_all_versions():
