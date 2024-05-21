@@ -6,9 +6,9 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/iTS_ViSHWA14'
     ST_BN2_NAME = '💥 Uᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/ViSHWA_MOViEX'
-    ST_MSG = '''<b>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</b>
+    ST_MSG = '''<b>ℹ️ I Cᴀɴ Uᴘʟᴏᴀᴅ Fɪʟᴇs, Lɪɴᴋs, Tᴏʀʀᴇɴᴛs, ᴇᴛᴄ. ᴛᴏ Tᴇʟᴇɢʀᴀᴍ, Gᴏᴏɢʟᴇ Dʀɪᴠᴇ, DDL Sᴇʀᴠᴇʀs ᴀɴᴅ Rᴄʟᴏɴᴇ Sᴜᴘᴘᴏʀᴛᴇᴅ Sɪᴛᴇs.</b>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<b>Nᴏᴡ, Tʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</b>'''
+    ST_BOTPM = '''<b>Nᴏᴡ, Tʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ...</b>'''
     ST_UNAUTH = '''<b>Yᴏᴜ Aʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀ!</b>'''
     OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ ɪs ɴᴏᴛ ʏᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
@@ -40,56 +40,58 @@ class WZMLStyle:
     HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''
-    
-    '''
-    SYS_STATS = '''🛠 𝙎𝙮𝙨𝙩𝙚𝙢 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
-    ┏⏰ OS Uptime : {os_uptime} 
-    ┠☢️ OS Info : {os_version} 
-    ┗🔧 OS Arch : {os_arch} 
-    ┏🖥️ CPU 
-    ┠{cpu_bar} » ({cpu}%) 
-    ┠Frequency : {cpu_freq} 
-    ┠Average Load : {sys_load} 
-    ┠P-Cores : {p_core} 
-    | V-Cores : {v_core} 
-    ┠Total Cores : {total_core} 
-    ┗Usable CPUs : {cpu_use} 
-    ┏📶 Network Stats 
-    ┠Upload Data: {up_data} 
-    ┠Download Data: {dl_data} 
-    ┠Pkts Sent: {pkt_sent}k 
-    ┠Pkts Received: {pkt_recv}k 
-    ┗Total I/O Data: {tl_data} '''
-    
-    BOT_STATS =  ''' 🤖 𝘽𝙤𝙩 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
-⏰ Bot Uptime : {bot_uptime} 
-┎💽 RAM 
+    BOT_STATS = '''<b>🤖 𝘽𝙤𝙩 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
+⏰ 𝗕𝗼𝘁 𝗨𝗽𝘁𝗶𝗺𝗲 : {bot_uptime} 
+┎💽 𝗥𝗔𝗠 
 ┠{ram_bar} » ({ram}%) 
 ┖U : {ram_u} | F : {ram_f} | T : {ram_t} 
-┎👒 SWAP 
+┎👒 𝗦𝗪𝗔𝗣 
 ┠{swap_bar} » ({swap}%) 
 ┖U : {swap_u} | F : {swap_f} | T : {swap_t} 
-┎📦 DISK 
+┎📦 𝗗𝗜𝗦𝗞 
 ┠{disk_bar} » ({disk}%) 
-┠Total Disk Read : {disk_read} 
-┠Total Disk Write : {disk_write} 
-┗U : {disk_u} | F : {disk_f} | T : {disk_t}</b> <code>{remarks}</code>
+┠𝗧𝗼𝘁𝗮𝗹 𝗗𝗶𝘀𝗸 𝗥𝗲𝗮𝗱 : {disk_read} 
+┠𝗧𝗼𝘁𝗮𝗹 𝗗𝗶𝘀𝗸 𝗪𝗿𝗶𝘁𝗲 : {disk_write} 
+┗U : {disk_u} | F : {disk_f} | T : {disk_t}</b>
+     '''
+    SYS_STATS = '''🛠 <b>𝙎𝙮𝙨𝙩𝙚𝙢 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
+    ┏⏰ 𝗢𝗦 𝗨𝗽𝘁𝗶𝗺𝗲 : {os_uptime} 
+    ┠☢️ 𝗢𝗦 𝗜𝗻𝗳𝗼 : {os_version} 
+    ┗🔧 𝗢𝗦 𝗔𝗿𝗰𝗵 : {os_arch} 
+    ┏🖥️ 𝗖𝗣𝗨 
+    ┠{cpu_bar} » ({cpu}%) 
+    ┠𝗙𝗿𝗲𝗾𝘂𝗲𝗻𝗰𝘆 : {cpu_freq} 
+    ┠𝗔𝘃𝗲𝗿𝗮𝗴𝗲 𝗟𝗼𝗮𝗱 : {sys_load} 
+    ┠𝗣-𝗖𝗼𝗿𝗲𝘀 : {p_core} 
+    | 𝗩-𝗖𝗼𝗿𝗲𝘀 : {v_core} 
+    ┠𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗿𝗲𝘀 : {total_core} 
+    ┗𝗨𝘀𝗮𝗯𝗹𝗲 𝗖𝗣𝗨𝘀 : {cpu_use} 
+    ┏📶 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗦𝘁𝗮𝘁𝘀 
+    ┠🔻𝗨𝗽𝗹𝗼𝗮𝗱 𝗗𝗮𝘁𝗮: {up_data} 
+    ┠🔺𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗗𝗮𝘁𝗮: {dl_data} 
+    ┠𝗣𝗸𝘁𝘀 𝗦𝗲𝗻𝘁: {pkt_sent}k 
+    ┠𝗣𝗸𝘁𝘀 𝗥𝗲𝗰𝗲𝗶𝘃𝗲𝗱: {pkt_recv}k 
+    ┗𝗧𝗼𝘁𝗮𝗹 𝗜/𝗢 𝗗𝗮𝘁𝗮: {tl_data}</b> 
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
-❀ <b>Direct Limit :</b> {DL} GB
-❀ <b>Torrent Limit :</b> {TL} GB
-❀ <b>GDrive Limit :</b> {GL} GB
-❀ <b>YT-DLP Limit :</b> {YL} GB
-❀ <b>Playlist Limit :</b> {PL}
-❀ <b>Mega Limit :</b> {ML} GB
-❀ <b>Clone Limit :</b> {CL} GB
-❀ <b>Leech Limit :</b> {LL} GB
-
-❀ <b>Token Validity :</b> {TV}
-❀ <b>User Time Limit :</b> {UTI} / task
-❀ <b>User Parallel Tasks :</b> {UT}
-❀ <b>Bot Parallel Tasks :</b> {BT}
+    REPO_STATS = '''🧑‍💻 𝙍𝙚𝙥𝙤 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
+    ┏♻️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 : {last_commit} 
+    ┠🆔 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : {bot_version} 
+    ┠🎈 𝗟𝗮𝘁𝗲𝘀𝘁 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : {lat_version} 
+    ┗📝 𝗖𝗵𝗮𝗻𝗴𝗲𝗹𝗼𝗴 : {commit_details} 💥 REMARKS : {remarks '''
+    
+    BOT_LIMITS = '''<b>❗𝘽𝙤𝙩 𝙇𝙞𝙢𝙞𝙩𝙨 :</b>
+<b>┏🎯 𝗗𝗶𝗿𝗲𝗰𝘁 : {DL} GB 
+┠🧲 𝗧𝗼𝗿𝗿𝗲𝗻𝘁 : {TL} GB 
+┠☁️ 𝗚𝗗𝗿𝗶𝘃𝗲 : {GL} GB 
+┠📺 𝗬𝗧-𝗗𝗟𝗣 : {YL} GB 
+┠🎥 𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 : {PL} Videos 
+┠Ⓜ️ 𝗠𝗲𝗴𝗮  : {ML} GB 
+┠🎗️ 𝗖𝗹𝗼𝗻𝗲 : {CL} GB 
+┗📂 𝗟𝗲𝗲𝗰𝗵 : {LL} GB 
+┏🔑 𝗧𝗼𝗸𝗲𝗻 𝗩𝗮𝗹𝗶𝗱𝗶𝘁𝘆 : {TV} 
+┠🐢 𝗧𝗶𝗺𝗲𝗼𝘂𝘁 : {UTI} 
+┠👤 𝗨𝘀𝗲𝗿 𝗧𝗮𝘀𝗸𝘀 : {UT} 
+┗🚧 𝗧𝗼𝘁𝗮𝗹 𝗧𝗮𝘀𝗸𝘀 : {BT}</b>
     '''
     # ---------------------
 
@@ -98,24 +100,24 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = ''' <b><i>Rᴇsтᴀʀтᴇᴅ Succᴇssғuʟʟʏ♡︎♡︎♡︎</i></b>
-❀ <b>Date:</b> {date}
-❀ <b>Time:</b> {time}
-❀ <b>TimeZone:</b> {timz}
-❀ <b>Version:</b> {version}'''
+    RESTART_SUCCESS = ''' <b>♻️ Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ!</b>
+❀ <b>📅 𝗗𝗮𝘁𝗲:</b> {date}
+❀ <b>⏰ 𝗧𝗶𝗺𝗲:</b> {time}
+❀ <b>🌍 𝗧𝗶𝗺𝗲𝗭𝗼𝗻𝗲:</b> {timz}
+❀ <b>🆔 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:</b> {version}'''
     RESTARTED = '''√ <b><i> Boт Is Rᴇsтᴀʀтᴇᴅ!</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
+    PING = '<code>🙄 Sᴛᴀʀᴛɪɴɢ Pɪɴɢ...</code>'
+    PING_VALUE = '<b>🏓 Pᴏɴɢ</b>\n<code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
-❀ <b>Mode:</b> {Mode}
-❀ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """❀ <b>Source:</b>
+    LINKS_START = """<b>🚧 Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ</b>
+┏💠 Mᴏᴅᴇ: {Mode}
+┗👤 User: {Tag}\n\n"""
+    LINKS_SOURCE = """💡 <b> Sᴏᴜʀᴄᴇ:</b>
 ❀ <b>Added On:</b> {On}
 ------------------------------------------
 {Source}
