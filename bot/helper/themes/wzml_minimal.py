@@ -2,15 +2,15 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '❁ ViSHWA MOViEX ❁'
-    ST_BN1_URL = 'https://t.me/ViSHWA_MOViEX'
-    ST_BN2_NAME = '❁ CONTACT ❁'
-    ST_BN2_URL = 'https://t.me/VM_CONTACTBOT'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
+    ST_BN1_NAME = '🧑‍💻Oᴡɴᴇʀ'
+    ST_BN1_URL = 'https://t.me/iTS_ViSHWA14'
+    ST_BN2_NAME = '💥 Uᴘᴅᴀᴛᴇs'
+    ST_BN2_URL = 'https://t.me/ViSHWA_MOViEX'
+    ST_MSG = '''<b>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</b>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
+    ST_BOTPM = '''<b>Nᴏᴡ, Tʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</b>'''
+    ST_UNAUTH = '''<b>Yᴏᴜ Aʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀ!</b>'''
+    OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ ɪs ɴᴏᴛ ʏᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
@@ -19,7 +19,7 @@ class WZMLStyle:
 <b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '◉┈Activated┈◉'
+    ACTIVATED = 'Aᴄᴛɪᴠᴀᴛᴇᴅ🚀'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
@@ -28,63 +28,53 @@ class WZMLStyle:
     LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 Log Display'
-    WEB_PASTE_BT = '📨 Web Paste (SB)'
+    LOG_DISPLAY_BT = '📑 Lᴏɢ Dɪsᴘʟᴀʏ'
+    WEB_PASTE_BT = '📨 Wᴇʙ Pᴀsᴛᴇ (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
-    CLOSE_BT = 'Close'
+    BASIC_BT = 'Bᴀsɪᴄ'
+    USER_BT = 'Usᴇʀs'
+    MICS_BT = 'Mɪᴄs'
+    O_S_BT = 'Oᴡɴᴇʀ & Sᴜᴅᴏs'
+    CLOSE_BT = 'Cʟᴏsᴇ 🔐'
     HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-❀ <b>Bot Uptime :</b> {bot_uptime}
-
-❀ <b><i>RAM ( MEMORY ) :</i></b>
-❀ {ram_bar} {ram}%
-❀ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
-
-❀ <b><i>SWAP MEMORY :</i></b>
-❀ {swap_bar} {swap}%
-❀ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
-
-❀ <b><i>DISK :</i></b>
-❀ {disk_bar} {disk}%
-❀ <b>Total Disk Read :</b> {disk_read}
-❀ <b>Total Disk Write :</b> {disk_write}
-❀ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+    BOT_STATS = '''
     
     '''
-    SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
-❀ <b>OS Uptime :</b> {os_uptime}
-❀ <b>OS Version :</b> {os_version}
-❀ <b>OS Arch :</b> {os_arch}
-
-❀ <b><i>NETWORK STATS :</i></b>
-❀ <b>Upload Data:</b> {up_data}
-❀ <b>Download Data:</b> {dl_data}
-❀ <b>Pkts Sent:</b> {pkt_sent}k
-❀ <b>Pkts Received:</b> {pkt_recv}k
-❀ <b>Total I/O Data:</b> {tl_data}
-
-❀ <b>CPU :</b>
-❀ {cpu_bar} {cpu}%
-❀ <b>CPU Frequency :</b> {cpu_freq}
-❀ <b>System Avg Load :</b> {sys_load}
-❀ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-❀ <b>Total Core(s) :</b> {total_core}
-❀ <b>Usable CPU(s) :</b> {cpu_use}
-    '''
-    REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-❀ <b>Bot Updated :</b> {last_commit}
-❀ <b>Current Version :</b> {bot_version}
-❀ <b>Latest Version :</b> {lat_version}
-❀ <b>Last ChangeLog :</b> {commit_details}
-
-⌬ <b>REMARKS :</b> <code>{remarks}</code>
+    SYS_STATS = '''🛠 𝙎𝙮𝙨𝙩𝙚𝙢 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
+    ┏⏰ OS Uptime : {os_uptime} 
+    ┠☢️ OS Info : {os_version} 
+    ┗🔧 OS Arch : {os_arch} 
+    ┏🖥️ CPU 
+    ┠{cpu_bar} » ({cpu}%) 
+    ┠Frequency : {cpu_freq} 
+    ┠Average Load : {sys_load} 
+    ┠P-Cores : {p_core} 
+    | V-Cores : {v_core} 
+    ┠Total Cores : {total_core} 
+    ┗Usable CPUs : {cpu_use} 
+    ┏📶 Network Stats 
+    ┠Upload Data: {up_data} 
+    ┠Download Data: {dl_data} 
+    ┠Pkts Sent: {pkt_sent}k 
+    ┠Pkts Received: {pkt_recv}k 
+    ┗Total I/O Data: {tl_data} '''
+    
+    BOT_STATS =  ''' 🤖 𝘽𝙤𝙩 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨 
+⏰ Bot Uptime : {bot_uptime} 
+┎💽 RAM 
+┠{ram_bar} » ({ram}%) 
+┖U : {ram_u} | F : {ram_f} | T : {ram_t} 
+┎👒 SWAP 
+┠{swap_bar} » ({swap}%) 
+┖U : {swap_u} | F : {swap_f} | T : {swap_t} 
+┎📦 DISK 
+┠{disk_bar} » ({disk}%) 
+┠Total Disk Read : {disk_read} 
+┠Total Disk Write : {disk_write} 
+┗U : {disk_u} | F : {disk_f} | T : {disk_t}</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
 ❀ <b>Direct Limit :</b> {DL} GB
